@@ -1,0 +1,17 @@
+@Server = https://literate-doodle-wp64w7q4x9wfv9qq-8080.app.github.dev
+###
+
+GET {{Server}}/api/productos
+
+###
+GET {{Server}}/api/ventas
+
+###
+GET {{Server}}/api/ventas/1/formacion
+###
+POST {{Server}}/api/ventas/1/formacion
+Content-Type: application/json
+
+{"producto": "2", "cantidad": 2}
+
+
